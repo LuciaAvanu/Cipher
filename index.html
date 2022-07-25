@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Encryption</title>
+</head>
+
+<body>
+
+    <div class="backdrop">
+
+        <div class="main-container">
+            <div class="img-container">
+                <img src="./security.png" alt="">
+            </div>
+
+            <div class="data-container">
+                <h1>Cipher</h1>
+
+                <p class="text">Enter your message here:</p>
+                <textarea rows="3" id="message"></textarea>
+
+                <p class="text">Enter secret code:</p>
+                <textarea rows="3" id="secret-code"></textarea>
+
+                <div class="buttons">
+                    <button id="encrypt-btn">Encrypt</button>
+                    <button id="decrypt-btn">Decrypt</button>
+                </div>
+
+                <p class="text">Your encrypted message:</p>
+                <textarea rows="3" id="encrypted-msg"></textarea>
+
+                <button id="copy-btn">Copy</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>

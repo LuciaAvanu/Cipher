@@ -1,0 +1,93 @@
+@import './css-reset.css';
+html {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 300;
+}
+
+.backdrop {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #606c38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    border-radius: 10px;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.data-container {
+    padding: 1.5em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2em;
+    margin-top: 0.25em;
+    margin-bottom: 0.75em;
+}
+
+.text {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+textarea:nth-of-type(1) {
+    margin-bottom: 1em;
+}
+
+textarea {
+    background-color: #fcf4de;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1.2em;
+    font-family: 'Archivo', sans-serif;
+}
+
+.buttons {
+    margin-bottom: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 48%;
+}
+
+button {
+    font-size: 1.2em;
+    background-color: #9E867C;
+    color: white;
+    border: 0;
+    padding: 0.2em;
+}
+
+button:hover {
+    background-color: #D88264;
+}
+
+.img-container {
+    background-color: #faedcd;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    padding: 1em;
+}
+
+.img-container img {
+    width: 100%;
+}
